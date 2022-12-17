@@ -1,0 +1,92 @@
+:root {
+    --silver: #c0c2c2;
+    --silverhole: #bbbcbe;
+    --solar: #1e1412;
+    --hkeaa: #a12a12;
+    --keyblack: #161618;
+    --keywhite: #dcdfe3;
+    --keyred: #5c3639;
+    --prog: #be5d18;
+    --shift: #848175;
+    --cmplx: #372b32;
+    --base: #0d2f33;
+    --stat: #2b455f;
+    --alpha: #ee1111af;
+    --screen: #778273;
+    --screenl: #dbdcde;
+    --screent: #514c50;
+}
+
+body {
+    background-color: grey;
+    margin: 0;
+}
+
+.calc {
+    background-color: var(--silver);
+    height: 100vh;
+    width: 49.6894409vh;
+    margin: auto;
+    position: relative;
+    border-top-left-radius:  24.8447205vh 3.650130859vh;
+    border-top-right-radius:  24.8447205vh 3.650130859vh;
+    border-bottom-left-radius:  24.8447205vh 8.755650726vh;
+    border-bottom-right-radius:  24.8447205vh 8.755650726vh;
+}
+
+.solar {
+    background-color: var(--solar);
+    height: 7.51843921vh;
+    width: 14.87582769vh;
+    position: absolute;
+    top: 2.664763264vh;
+    right: 6.852248381vh;
+    border-radius: 1.522537994vh 1.522721865vh;
+}
+
+.solar .line1 {
+    background-color: grey;
+    height: 100%;
+    width: 2%;
+    position: absolute;
+    left: 23.5%;
+}
+
+.solar .line2 {
+    background-color: grey;
+    height: 100%;
+    width: 2%;
+    position: absolute;
+    left: 47%;
+}
+
+.solar .line3 {
+    background-color: grey;
+    height: 100%;
+    width: 2%;
+    position: absolute;
+    right: 23.5%;
+}
+
+.screen {
+    display: flex;
+}
+
+.background {
+    background-color: var(--screen);
+    position: absolute;
+    margin-top: 14.18034737vh;
+    margin-left: 5.044016169vh;
+    height: 16.6547704vh;
+    width: 34.57982386vh;
+    border-radius: 0.666190814vh;
+
+    /* border: 1.04681282vh 1.99852444vh 0px 1.99852444vh none none none none var(--screent) var(--screenl) #000 var(--screenl); */
+
+    border-left-width: 1.99852444vh;
+    border-left-color: var(--screenl);
+    border-right-width: 1.99852444vh;
+    border-right-color: var(--screenl);
+    border-top-width: 1.04681282vh;
+    border-top-color: var(--screent);
+}
