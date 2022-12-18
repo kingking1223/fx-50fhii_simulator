@@ -7,7 +7,7 @@
     --keywhite: #dcdfe3;
     --keyred: #5c3639;
     --prog: #be5d18;
-    --shift: #848175;
+    --shift: #7a3e05;
     --cmplx: #372b32;
     --base: #0d2f33;
     --stat: #2b455f;
@@ -20,6 +20,7 @@
 body {
     background-color: grey;
     margin: 0;
+    font-family: sans-serif;
 }
 
 .calc {
@@ -129,7 +130,7 @@ body {
     margin-top: -0.35vh;
     width: 18.17749223vh;
     height: 100%;
-    font-size: 15px;
+    font-size: 1.893vh;
     white-space: nowrap;
 }
 
@@ -188,4 +189,95 @@ body {
     border-right-color: var(--screenl);
     border-top-width: 1.04681282vh;
     border-top-color: var(--screent);
+}
+
+.aribtn {
+    position: relative;
+    display: grid;
+    margin-top: 66.61908161vh;
+    margin-left: 4.6210707127vh;
+    width: 40.447299477vh;
+    height: 28.07518439vh;
+}
+
+.l1 {
+    display: flex;
+}
+
+.sevenbtn {
+    height: 6.566738044vh;
+    width: 7.423269079vh;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.sevenbtn p {
+    color: var(--shift);
+    margin-top: 0;
+    margin-left: 1.808232212vh;
+    margin-bottom: 0.285510349vh;
+    width: 3.426124191vh;
+    height: 1.046871282vh;
+    font-size: 1.12vh;
+}
+
+.sevenbtn .main {
+    background-color: var(--keyblack);
+    height: 5.139186296vh;
+    width: 7.423269079vh;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-bottom-left-radius: 50% 3.4261241vh;
+    border-bottom-right-radius: 50% 3.4261241vh;
+    border-top-left-radius: 0.85653104vh 1.713062196vh;
+    border-top-right-radius: 0.85653104vh 1.713062196vh;
+}
+
+.eightbtn {
+    height: 6.566738044vh;
+    width: 7.423269079vh;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.eightbtn .main {
+    background-color: var(--keyblack);
+    height: 5.139186296vh;
+    width: 7.423269079vh;
+    margin-top: 1.332381631vh;
+    margin-bottom: 0;
+    margin-left: 0.951701164vh;
+    border-bottom-left-radius: 50% 3.4261241vh;
+    border-bottom-right-radius: 50% 3.4261241vh;
+    border-top-left-radius: 0.85653104vh 1.713062196vh;
+    border-top-right-radius: 0.85653104vh 1.713062196vh;
+}
+
+.ninebtn {
+    height: 6.566738044vh;
+    width: 7.423269079vh;
+    margin-top: 0;
+    margin-left: 0.951701164vh;
+}
+
+.ninebtn p {
+    color: var(--shift);
+    margin-top: 0;
+    margin-left: 2.950273608vh;
+    margin-bottom: 0.285510349vh;
+    width: 3.426124191vh;
+    height: 1.046871282vh;
+    font-size: 1.388vh;
+}
+
+.ninebtn .main {
+    background-color: var(--keyblack);
+    height: 5.139186296vh;
+    width: 7.423269079vh;
+    margin-bottom: 0;
+    margin-left: 0.951701164vh;
+    border-bottom-left-radius: 50% 3.4261241vh;
+    border-bottom-right-radius: 50% 3.4261241vh;
+    border-top-left-radius: 0.85653104vh 1.713062196vh;
+    border-top-right-radius: 0.85653104vh 1.713062196vh;
 }
